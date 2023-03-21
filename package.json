@@ -1,0 +1,25 @@
+{
+  "name": "form-validation",
+  "version": "1.0.0",
+  "description": "taking the user data through form and storing it in mongoDB database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iklaq/form-validation.git"
+  },
+  "author": "iklaq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iklaq/form-validation/issues"
+  },
+  "homepage": "https://github.com/iklaq/form-validation#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "mongoose": "^7.0.2"
+  }
+}
